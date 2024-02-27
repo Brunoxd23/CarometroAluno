@@ -6,7 +6,7 @@ function Booking() {
     return (
 
         <Card className="p-6">
-            <CardContent>
+            <CardContent className="pb-2">
 
                 <h1 className="grid w-full p-6  max-w-sm items-center gap-1.5">Carômetro Aluno</h1>
 
