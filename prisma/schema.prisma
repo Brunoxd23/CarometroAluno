@@ -13,10 +13,8 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
 // schema.prisma
 
-// Define o modelo de dados para os estudantes
 model Estudante {
   ra        String   @id
   nome      String
