@@ -1,12 +1,15 @@
+// Home.js
 import React from "react";
-import Booking from "./booking-item";
+import Booking from "../_components/booking-item";
+import Header from "../_components/header";
 
 const Home = () => {
   return ( 
-    <Booking />
-    
-    
-   );
+    <>
+      <Header />
+      <Booking />
+    </>
+  );
 }
  
 export default Home;

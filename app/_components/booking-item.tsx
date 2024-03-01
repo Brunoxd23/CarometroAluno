@@ -1,9 +1,9 @@
-import { Card, CardContent } from "../_components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "../_components/avatar";
 
-import { Input } from "../_components/input";
-import { Label } from "../_components/label";
 import React from "react";
+import { Card, CardContent } from "./ui/card";
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import { Label } from "./ui/label";
+import { Input } from "./ui/input";
 
 
 function Booking() {
