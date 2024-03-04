@@ -10,7 +10,7 @@ function Booking() {
     return (
 
 <div className="flex justify-center items-center h-screen">
-    <Card className="p-2 md:p-4 max-w-md md:max-w-lg">
+    <Card className="p-2 md:p-4 max-w-md md:max-w-lg ">
         <CardContent className="pb-2">
             <h1 className="text-lg md:text-2xl mb-6 text-right">Carômetro Aluno</h1>
 
